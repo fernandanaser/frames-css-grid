@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    height: 1000px;
+}
+
+/*---------- Cabeçalho ----------*/
+
+header {
+    display: flex;
+    padding: 0 70px;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: indianred;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    height: 50px;
+}
+
+header a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+header a img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 40px;
+}
+
+/*---------- Body ----------*/
+
+.noticia, .produtos {
+    margin: auto;
+    width: calc(100vw - 140px);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-top: 40px;
+} 
+
+.noticia img, .produtos img {
+    width: 100%;
+}
+
+
+.propaganda {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+}
+
+.bermudas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.bermudas img, .youtube img {
+    width: 100%;
+}
+
+.youtube {
+    margin: auto;
+    width: calc(100vw - 140px);
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 20px;
+    padding-top: 40px;
+} 
+
+.youtube img {
+    width: 100%;
+}
+
+.frame4-galeria {
+    margin: auto;
+    width: calc(100vw - 140px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+.youtube-side {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.frame4-galeria img {
+    width: 100%;
+}
+
+.frame4-galeria div p {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: indianred;
+    padding: 0 20px;
+    height: 40px;
+    position: relative;
+    top: -20px;
+    left: 0px;
+}
+
+.frame4-esquerdo {
+    margin: 0;
+    padding: 0;
+}
